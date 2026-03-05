@@ -15,6 +15,8 @@ if operation == "+":
   result = left + right
 elif operation == "-":
   result = left - right
+elif operation == "*":
+  result = left * right
 
 print(result)
 
