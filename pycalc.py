@@ -19,6 +19,10 @@ elif operation == "*":
   result = left * right
 elif operation == "/":
   result = left / right
+else:
+  print("Erreur : opérateur inconnu '" + str(operation) + "'", \
+    file=sys.stderr)
+  sys.exit(1)
 
 print(result)
 
