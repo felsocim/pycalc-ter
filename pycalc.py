@@ -11,6 +11,9 @@ right = float(sys.argv[3])
 
 result = None
 
+if operation == "+":
+  result = left + right
+
 print(result)
 
 
