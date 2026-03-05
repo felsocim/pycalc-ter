@@ -2,7 +2,7 @@
 import sys
 
 if len(sys.argv) != 4:
-  print("Erreur : argument(s) manquant(s)", file=stderr)
+  print("Erreur : argument(s) manquant(s)", file=sys.stderr)
   sys.exit(1)
 
 left = float(sys.argv[1])
