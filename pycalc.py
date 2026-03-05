@@ -9,6 +9,9 @@ left = float(sys.argv[1])
 operation = sys.argv[2]
 right = float(sys.argv[3])
 
+result = None
+
+print(result)
 
 
 
